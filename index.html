@@ -1,23 +1,50 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Clash Royale Strategy</title>
-   
-    <base href="/">
-    asdfjhsadfhnp
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
+    <base href="/"> <!-- For Angular Routing -->
+
+    <!-- bower_component files -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-route/angular-route.min.js"></script>
-
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Custom .css files -->
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-
-<body ng-app="crStrategyApp">
+<body data-ng-app="crStrategyApp">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">CR <span class="glyphicon glyphicon-tower"></span> STRATEGY</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-links">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/decks">Decks</a></li>
+                    <li><a href="/form">Submit Deck</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         
-        <div ng-view></div>
+    <div data-ng-view></div>
 
+    <!-- JavaScript Files -->
     <script src="js/app.js"></script>
     <script src="js/controller.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 </html>

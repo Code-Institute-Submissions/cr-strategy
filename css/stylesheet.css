@@ -1,3 +1,27 @@
 body {
-    padding-top: 70px;
+    padding-top: 40px;
+}
+
+.navbar-default {
+    background-color: #ff9900;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #cc7a00;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }

@@ -1,0 +1,22 @@
+{
+  "name": "cr-strategy",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ashley Shenton"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Diagnost1X/cr-strategy",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4"
+  }
+}

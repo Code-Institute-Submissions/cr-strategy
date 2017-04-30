@@ -8,11 +8,14 @@ It provides a news and FAQ page for fans to stay involved and a deck sharing for
 It uses Angular and it's routing features to operate as a single page site. It is styled with Bootstrap.
 ## Features
 ### Existing Features
-- Mobile Friendly NavBar
-- Footer
+- Site Features
+    - Mobile Friendly NavBar
+    - Footer
+    - Home Page
+- User Features
+    - None yet!
 ### Features Left to Implement
 - Site Features
-    - Home Page
     - News Page
     - Deck Page
     - FAQ Page
@@ -32,3 +35,5 @@ It uses Angular and it's routing features to operate as a single page site. It i
 ### Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Clash_Royale)
     - I have used the information on Wikipedia as content on the site
+- [Clash Royale](https://clashroyale.com)
+    - I have used images from the Clash Royale site and images that depict their game

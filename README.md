@@ -8,11 +8,10 @@ It provides a news and FAQ page for fans to stay involved and a deck sharing for
 It uses Angular and it's routing features to operate as a single page site. It is styled with Bootstrap.
 ## Features
 ### Existing Features
-- None yet!
+- Mobile Friendly NavBar
+- Footer
 ### Features Left to Implement
 - Site Features
-    - NavBar
-    - Footer
     - Home Page
     - News Page
     - Deck Page
@@ -29,3 +28,7 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I use **npm** to help manage some of the dependencies in my site
 - [bower](https://bower.io/)
     - **Bower** is used to manage the installation of the libraries and frameworks
+## Content Used
+### Sources
+- [Wikipedia](https://en.wikipedia.org/wiki/Clash_Royale)
+    - I have used the information on Wikipedia as content on the site

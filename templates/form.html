@@ -1,17 +1,17 @@
 <div class="container">
     <div class="col-md-12">
-        <form class="deck-form">
+        <form class="deck-form" data-ng-submit="submitForm()">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" name="username" class="form-control" id="username" placeholder="Enter your Clash Royale Username" required>
+                <input type="text" name="username" class="form-control" id="username" placeholder="Enter your Clash Royale Username" data-ng-model="deck.username" required>
             </div>
             <div class="form-group">
                 <label for="deckname">Deck Name</label>
-                <input type="text" name="deckname" id="deckname" class="form-control" placeholder="Choose a name for your deck" required>
+                <input type="text" name="deckname" id="deckname" class="form-control" placeholder="Choose a name for your deck" data-ng-model="deck.deckname" required>
             </div>
             <div class="form-group">
                 <label for="arena">What arena are you in?</label>
-                <select name="arena" id="arena" class="form-control">
+                <select name="arena" id="arena" class="form-control" data-ng-model="deck.arena">
                     <option value="a1">Arena 1 - Goblin Stadium</option>
                     <option value="a2">Arena 2 - Bone Pit</option>
                     <option value="a3">Arena 3 - Barbarian Bowl</option>
@@ -27,7 +27,7 @@
             </div>
             <div class="form-group">
                 <label for="description">Description</label>
-                <textarea name="description" id="description" class="form-control" placeholder="Enter a description on how to use your deck"></textarea>
+                <textarea name="description" id="description" class="form-control" placeholder="Enter a description on how to use your deck" data-ng-model="deck.description"></textarea>
             </div>
             <div class="form-group">
                 <h3>Choose 8 cards only</h3>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn-primary" data-ng-disabled="deck-form.$invalid">Submit Deck</button>
+                <button type="submit" id="submit-btn" class="btn btn-primary" data-ng-disabled="deck-form.$invalid">Submit Deck</button>
             </div>
         </form>
     </div>

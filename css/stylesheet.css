@@ -53,6 +53,7 @@ label > input {
 }
 label > img {
     width: 100%;
+    opacity: 0.5;
 }
 .checkbox-inline {
     height: 100%;
@@ -67,7 +68,7 @@ label > img {
     margin: 3px;
 }
 .checked {
-    opacity: 0.4;
+    opacity: 1;
 }
 #description {
     height: 150px;

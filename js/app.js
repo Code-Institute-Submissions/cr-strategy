@@ -17,7 +17,7 @@ angular.module('crStrategyApp').config(function($locationProvider, $routeProvide
     })
     .when('/form', {
         templateUrl: 'templates/form.html',
-        controller: 'formController.html'
+        controller: 'formController'
     })
     .when('/faq', {
         templateUrl: 'templates/faq.html',

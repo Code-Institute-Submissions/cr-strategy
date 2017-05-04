@@ -13,14 +13,12 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - Footer
     - Home Page
 - User Features
-    - None yet!
+    - Deck Submitting Form
 ### Features Left to Implement
 - Site Features
     - News Page
     - Deck Page
     - FAQ Page
-- User Features
-    - Deck Submitting Form
 ## Tech Used
 ### The Tech Used Includes:
 - [AngularJS](https://angularjs.org/)
@@ -37,3 +35,5 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I have used the information on Wikipedia as content on the site
 - [Clash Royale](https://clashroyale.com)
     - I have used images from the Clash Royale site and images that depict their game
+- [Unofficial Fan Kit](https://forum.supercell.com/showthread.php/1460831-Fan-Kit-2-0-unofficial-Updated)
+    - I have used images and content from this file for display on the site

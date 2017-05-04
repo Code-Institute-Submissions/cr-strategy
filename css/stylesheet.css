@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
 /* Body Style */
 body {
     font-family: 'Nunito', sans-serif;
@@ -38,6 +39,39 @@ h3 {
     width: 100%;
     padding-top: 10px;
 }
+.deck-form {
+    margin-top: 20px;
+}
+/* Form Style */
+#all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+label > input {
+    display: none;
+}
+label > img {
+    width: 100%;
+}
+.checkbox-inline {
+    height: 100%;
+    width: 20%;
+    max-width: 100px;
+    padding: 0;
+}
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+    margin: 3px;
+}
+#first-checkbox {
+    margin: 3px;
+}
+.checked {
+    opacity: 0.4;
+}
+#description {
+    height: 150px;
+}
 /* NavBar Style */
 .navbar-default {
     background-color: #ff9900;
@@ -62,6 +96,7 @@ h3 {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
+
 /* Footer Style */
 .footer {
     height: 40px;

@@ -42,6 +42,23 @@ h3 {
 .deck-form {
     margin-top: 20px;
 }
+/* News Style */
+#news-carousel {
+    width: 90%;
+    height: 420px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+#carousel-footer {
+    text-align: center;
+}
+.teaser {
+    width: 100%;
+    max-width: 800px;
+}
 /* Form Style */
 #all-cards {
     display: flex;

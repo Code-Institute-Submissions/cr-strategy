@@ -12,11 +12,11 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - Mobile Friendly NavBar
     - Footer
     - Home Page
+    - News Page
 - User Features
     - Deck Submitting Form
 ### Features Left to Implement
 - Site Features
-    - News Page
     - Deck Page
     - FAQ Page
 ## Tech Used

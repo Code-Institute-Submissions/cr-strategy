@@ -29,5 +29,8 @@ angular.module("routeControllers", [])
         });
     })
     .controller("arenasController", function() {
-
+        $('#carousel-text').html($('.active > .carousel-caption').html());
+        $('.carousel').on('slid.bs.carousel', function () {
+            $('#carousel-text').html($('.active > .carousel-caption').html());
+        });
     });

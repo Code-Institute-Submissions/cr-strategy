@@ -13,12 +13,12 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - Footer
     - Home Page
     - News Page
+    - Arenas Page
 - User Features
     - Deck Submitting Form
 ### Features Left to Implement
 - Site Features
     - Deck Page
-    - FAQ Page
 ## Tech Used
 ### The Tech Used Includes:
 - [AngularJS](https://angularjs.org/)

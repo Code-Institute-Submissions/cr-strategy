@@ -42,19 +42,23 @@ h3 {
 .deck-form {
     margin-top: 20px;
 }
-/* News Style */
-#news-carousel {
-    width: 90%;
-    height: 420px;
-    overflow: hidden;
-    margin: 0 auto;
+/* Arena Style */
+.carousel-caption {
+    display: none;
 }
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.item {
+    height: 100%;
+}
+#carousel-arena {
     width: 100%;
+    margin: auto;
 }
-#carousel-footer {
-    text-align: center;
+@media (min-width: 750px) {
+    #carousel-arena {
+        width: 45%;
+    }
 }
+/* News Style */
 .teaser {
     width: 100%;
     max-width: 800px;

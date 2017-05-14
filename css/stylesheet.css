@@ -58,6 +58,19 @@ h3 {
         width: 45%;
     }
 }
+/* Decks Style */
+table {
+    width: 100%;
+    border: 2px black solid;
+    text-align: center;
+}
+td {
+    padding: 5px;
+    border: 1px black solid;
+}
+td > img {
+    width: 100%;
+}
 /* News Style */
 .teaser {
     width: 100%;

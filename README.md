@@ -3,7 +3,7 @@
 ### What is this website for?
 This site is for Clash Royale enthusiasts to keep up with the latest game news and share their decks and strategies.
 ### What does it do?
-It provides a news and FAQ page for fans to stay involved and a deck sharing form where visitors can share their decks. These are sent to another page where visitors can view submissions.
+It provides a news page for fans to stay involved with the latest content and a deck sharing form where visitors can share their decks. There is another page where visitors can view submissions and an informative page that displays the game's arenas and card unlock requirements.
 ### How does it work?
 It uses Angular and it's routing features to operate as a single page site. It is styled with Bootstrap.
 ## Features
@@ -25,6 +25,8 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I use **AngularJS** to handle page routing, separate page controllers and custom directives
 - [Bootstrap](http://getbootstrap.com/)
     - I use **Bootstrap** to give my project a simple, tidy and responsive layout
+- [jQuery](https://jquery.com/)
+    - I use **jQuery** to simplify the JavaScript I need for some site functionality
 - [npm](https://www.npmjs.com/)
     - I use **npm** to help manage some of the dependencies in my site
 - [bower](https://bower.io/)
@@ -41,3 +43,5 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I have used decks shared on this website as example decks on my decks page
 - [stack overflow](https://stackoverflow.com/)
     - I have used elegant solutions shared on stack overflow to fix positioning issues, create innovative styles and fix the mobile navbar not auto-closing issue on single-page sites
+## Please view the website on the link below
+<https://diagnost1x.github.io/cr-strategy/>

@@ -14,11 +14,11 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - Home Page
     - News Page
     - Arenas Page
+    - Deck Page
 - User Features
     - Deck Submitting Form
 ### Features Left to Implement
-- Site Features
-    - Deck Page
+- None! (for now)
 ## Tech Used
 ### The Tech Used Includes:
 - [AngularJS](https://angularjs.org/)
@@ -37,3 +37,7 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I have used images from the Clash Royale site and images that depict their game
 - [Unofficial Fan Kit](https://forum.supercell.com/showthread.php/1460831-Fan-Kit-2-0-unofficial-Updated)
     - I have used images and content from this file for display on the site
+- [Clash Royale Arena](http://clashroyalearena.com/)
+    - I have used decks shared on this website as example decks on my decks page
+- [stack overflow](https://stackoverflow.com/)
+    - I have used elegant solutions shared on stack overflow to fix positioning issues, create innovative styles and fix the mobile navbar not auto-closing issue on single-page sites

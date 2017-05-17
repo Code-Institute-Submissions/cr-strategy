@@ -3,7 +3,7 @@
 ### What is this website for?
 This site is for Clash Royale enthusiasts to keep up with the latest game news and share their decks and strategies.
 ### What does it do?
-It provides a news and FAQ page for fans to stay involved and a deck sharing form where visitors can share their decks. These are sent to another page where visitors can view submissions.
+It provides a news page for fans to stay involved with the latest content and a deck sharing form where visitors can share their decks. There is another page where visitors can view submissions and an informative page that displays the game's arenas and card unlock requirements.
 ### How does it work?
 It uses Angular and it's routing features to operate as a single page site. It is styled with Bootstrap.
 ## Features

@@ -25,6 +25,8 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I use **AngularJS** to handle page routing, separate page controllers and custom directives
 - [Bootstrap](http://getbootstrap.com/)
     - I use **Bootstrap** to give my project a simple, tidy and responsive layout
+- [jQuery](https://jquery.com/)
+    - I use **jQuery** to simplify the JavaScript I need for some site functionality
 - [npm](https://www.npmjs.com/)
     - I use **npm** to help manage some of the dependencies in my site
 - [bower](https://bower.io/)
@@ -41,3 +43,5 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I have used decks shared on this website as example decks on my decks page
 - [stack overflow](https://stackoverflow.com/)
     - I have used elegant solutions shared on stack overflow to fix positioning issues, create innovative styles and fix the mobile navbar not auto-closing issue on single-page sites
+## Please view the website on the link below
+<https://diagnost1x.github.io/cr-strategy/>

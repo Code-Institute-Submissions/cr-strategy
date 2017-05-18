@@ -1,4 +1,4 @@
-angular.module('crStrategyApp', ['ngRoute', 'routeControllers', 'angular-storage']);
+angular.module('crStrategyApp', ['ngRoute', 'routeControllers']);
  
 angular.module('crStrategyApp').config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);  // Enable href routing without hashes

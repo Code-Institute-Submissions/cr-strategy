@@ -14,7 +14,8 @@ angular.module("routeControllers", [])
                 checked = $("input[name='cards']:checked").length;
                 if(checked !== 8) {
                     alert("You have selected less than 8 cards. Please select a total of 8 cards.");
-                    return false;
+                } else {
+                    alert("Thank you for submitting your deck to us. We will publish your deck after review.");
                 }
             });
         });

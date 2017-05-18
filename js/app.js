@@ -4,16 +4,13 @@ angular.module('crStrategyApp').config(function($locationProvider, $routeProvide
     $locationProvider.html5Mode(true);  // Enable href routing without hashes
  
     $routeProvider.when('/', {
-        templateUrl: 'templates/home.html',
-        controller: 'homeController'
+        templateUrl: 'templates/home.html'
     })
     .when('/news', {
-        templateUrl: 'templates/news.html',
-        controller: 'newsController'
+        templateUrl: 'templates/news.html'
     })
     .when('/decks', {
-    	templateUrl: 'templates/decks.html',
-        controller: 'decksController'
+    	templateUrl: 'templates/decks.html'
     })
     .when('/form', {
         templateUrl: 'templates/form.html',

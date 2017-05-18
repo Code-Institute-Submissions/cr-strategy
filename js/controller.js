@@ -1,14 +1,5 @@
 angular.module("routeControllers", [])
-    .controller("homeController", function() {
-
-    })
-    .controller("newsController", function() {
-
-    })
-    .controller("decksController", function() {
-
-    })
-    .controller("formController", function($scope, store, $location) {
+    .controller("formController", function($scope, $location) {
         $(document).ready(function() {
             var limit = 8;
             $('label input').on('change', function(evt) {

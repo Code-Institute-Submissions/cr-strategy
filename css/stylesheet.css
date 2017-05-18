@@ -76,6 +76,9 @@ td > img {
     max-width: 800px;
 }
 /* Form Style */
+.help-block {
+    color: #cc7a00;
+}
 #all-cards {
     display: flex;
     flex-wrap: wrap;

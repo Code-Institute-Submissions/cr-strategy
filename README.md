@@ -43,6 +43,8 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I have used decks shared on this website as example decks on my decks page
 - [stack overflow](https://stackoverflow.com/)
     - I have used elegant solutions shared on stack overflow to fix positioning issues, create innovative styles and fix the mobile navbar not auto-closing issue on single-page sites
+## Wireframes
+Wireframes for this project can be viewed [here](wireframes)
 ## Testing
 I have used a mixture of manual and automated testing for this project. To access the manual tests please follow the link below:
 - [Manual Tests](js/jasmine/manual-tests.md)

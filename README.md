@@ -43,5 +43,17 @@ It uses Angular and it's routing features to operate as a single page site. It i
     - I have used decks shared on this website as example decks on my decks page
 - [stack overflow](https://stackoverflow.com/)
     - I have used elegant solutions shared on stack overflow to fix positioning issues, create innovative styles and fix the mobile navbar not auto-closing issue on single-page sites
+## Testing
+I have used a mixture of manual and automated testing for this project. To access the manual tests please follow the link below:
+- [Manual Tests](js/jasmine/manual-tests.md)
+
+For the automated tests please follow these steps:
+
+1. Clone this repository
+    - `git clone https://github.com/Diagnost1X/cr-strategy.git`
+2. Open the cloned repository and navigate to the **SpecRunner.html** file
+    - `js/jasmine/SpecRunner.html`
+3. Open and view this file in your browser
+
 ## Please view the website on the link below
 <https://diagnost1x.github.io/cr-strategy/>
